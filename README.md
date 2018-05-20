@@ -1,5 +1,8 @@
 # Start environment (windows)
 
+## Install node_modules
+`$ npm install`
+
 ## With one command (this open two cmd process)
 
 `$ npm run dev`
