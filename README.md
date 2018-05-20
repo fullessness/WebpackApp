@@ -1,7 +1,8 @@
 # Start environment (windows)
 
 ## Install node_modules
-`$ npm install`
+
+`$ npm update --save-dev`
 
 ## Use one command (this open two cmd process)
 
