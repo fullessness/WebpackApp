@@ -6,7 +6,7 @@
   "scripts": {
     "tsc-watch-start": "npx tsc -w",
     "start": "node_modules\\.bin\\webpack --config webpack.config.js",
-    "watch": "node_modules\\.bin\\webpack --mode \"development\" --watch --config webpack.config.js",
+    "watch": "node_modules\\.bin\\webpack --env.runCleanWebpackPlugin --mode \"development\" --watch --config webpack.config.js",
     "server": "node_modules\\.bin\\webpack-dev-server --mode \"development\"",
     "dev": "start npm run server && npm run watch",
 
